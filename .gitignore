@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/
+*.pyc
+.matplotlib/
+cache/
+*.npz
+feature_cache/
+last.pt
+data_*/
+.DS_Store

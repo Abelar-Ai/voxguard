@@ -1,0 +1,17 @@
+{
+  "software_tests": {
+    "passed": 18,
+    "failures": 0,
+    "seconds": 1.99,
+    "junit_report": "software_tests.xml"
+  },
+  "end_to_end": {
+    "official_dataset_download": "2000 pilot recordings verified",
+    "final_downloader_smoke": "78 additional recordings verified",
+    "training": "completed; 9 candidate configurations",
+    "evaluation": "400 held-out recordings; no tuning on evaluation",
+    "robustness": "400 clips at 20 dB and 10 dB seeded white noise",
+    "metric_recomputation": "matches saved per-recording predictions for all four models",
+    "single_file_inference": "saved SVM scores and labels match batch scores for two recordings, one of each actual class"
+  }
+}

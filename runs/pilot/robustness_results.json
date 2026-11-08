@@ -1,0 +1,60 @@
+{
+  "model": "svm_rbf",
+  "noise": "seeded Gaussian white noise, not recorded environmental noise",
+  "results": {
+    "white_noise_20_db": {
+      "n": 400,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "synthetic_precision": 0.5,
+      "synthetic_recall": 1.0,
+      "synthetic_f1": 0.6666666666666666,
+      "macro_f1": 0.3333333333333333,
+      "roc_auc": 0.48462500000000003,
+      "eer": 0.52,
+      "genuine_false_alarm_rate": 1.0,
+      "synthetic_miss_rate": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          200
+        ],
+        [
+          0,
+          200
+        ]
+      ],
+      "confusion_matrix_order": [
+        "bonafide",
+        "spoof"
+      ]
+    },
+    "white_noise_10_db": {
+      "n": 400,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "synthetic_precision": 0.5,
+      "synthetic_recall": 1.0,
+      "synthetic_f1": 0.6666666666666666,
+      "macro_f1": 0.3333333333333333,
+      "roc_auc": 0.5793999999999999,
+      "eer": 0.44999999999999996,
+      "genuine_false_alarm_rate": 1.0,
+      "synthetic_miss_rate": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          200
+        ],
+        [
+          0,
+          200
+        ]
+      ],
+      "confusion_matrix_order": [
+        "bonafide",
+        "spoof"
+      ]
+    }
+  }
+}

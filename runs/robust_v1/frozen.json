@@ -1,0 +1,106 @@
+{
+  "selected": {
+    "representation": "combined",
+    "model": "svm_C1.0",
+    "threshold": -0.029748856495285136,
+    "mean_development_balanced_accuracy": 0.8574999999999999,
+    "conditions": {
+      "clean": {
+        "n": 400,
+        "accuracy": 0.975,
+        "balanced_accuracy": 0.975,
+        "synthetic_precision": 0.9656862745098039,
+        "synthetic_recall": 0.985,
+        "synthetic_f1": 0.9752475247524752,
+        "macro_f1": 0.974997499749975,
+        "roc_auc": 0.994225,
+        "eer": 0.025000000000000022,
+        "genuine_false_alarm_rate": 0.035,
+        "synthetic_miss_rate": 0.015,
+        "confusion_matrix": [
+          [
+            193,
+            7
+          ],
+          [
+            3,
+            197
+          ]
+        ],
+        "confusion_matrix_order": [
+          "bonafide",
+          "spoof"
+        ]
+      },
+      "noise_20_db": {
+        "n": 400,
+        "accuracy": 0.835,
+        "balanced_accuracy": 0.835,
+        "synthetic_precision": 0.8221153846153846,
+        "synthetic_recall": 0.855,
+        "synthetic_f1": 0.8382352941176471,
+        "macro_f1": 0.8349339735894358,
+        "roc_auc": 0.907375,
+        "eer": 0.165,
+        "genuine_false_alarm_rate": 0.185,
+        "synthetic_miss_rate": 0.145,
+        "confusion_matrix": [
+          [
+            163,
+            37
+          ],
+          [
+            29,
+            171
+          ]
+        ],
+        "confusion_matrix_order": [
+          "bonafide",
+          "spoof"
+        ]
+      },
+      "noise_10_db": {
+        "n": 400,
+        "accuracy": 0.7625,
+        "balanced_accuracy": 0.7625,
+        "synthetic_precision": 0.7932960893854749,
+        "synthetic_recall": 0.71,
+        "synthetic_f1": 0.7493403693931399,
+        "macro_f1": 0.7618435813711543,
+        "roc_auc": 0.82545,
+        "eer": 0.26,
+        "genuine_false_alarm_rate": 0.185,
+        "synthetic_miss_rate": 0.29,
+        "confusion_matrix": [
+          [
+            163,
+            37
+          ],
+          [
+            58,
+            142
+          ]
+        ],
+        "confusion_matrix_order": [
+          "bonafide",
+          "spoof"
+        ]
+      }
+    }
+  },
+  "seed": 475,
+  "train_recordings": 1200,
+  "train_views": 3600,
+  "dev_recordings": 400,
+  "augmentation": {
+    "views_per_recording": 2,
+    "noise": "Gaussian white",
+    "snr_db_uniform": [
+      8,
+      35
+    ]
+  },
+  "selection": "mean balanced accuracy across clean, 20 dB and 10 dB development conditions",
+  "threshold": "chosen on pooled development scores only",
+  "evaluation_used": false
+}

@@ -1,0 +1,334 @@
+{
+  "majority": {
+    "n": 400,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "synthetic_precision": 0.0,
+    "synthetic_recall": 0.0,
+    "synthetic_f1": 0.0,
+    "macro_f1": 0.3333333333333333,
+    "roc_auc": 0.5,
+    "eer": 0.5,
+    "genuine_false_alarm_rate": 0.0,
+    "synthetic_miss_rate": 1.0,
+    "confusion_matrix": [
+      [
+        200,
+        0
+      ],
+      [
+        200,
+        0
+      ]
+    ],
+    "confusion_matrix_order": [
+      "bonafide",
+      "spoof"
+    ],
+    "classifier_prediction_and_score_ms_per_clip": 0.00013729004422202706,
+    "selected_on_development": false,
+    "per_attack_synthetic_recall": {
+      "A07": {
+        "n": 16,
+        "recall": 0.0
+      },
+      "A08": {
+        "n": 16,
+        "recall": 0.0
+      },
+      "A09": {
+        "n": 16,
+        "recall": 0.0
+      },
+      "A10": {
+        "n": 16,
+        "recall": 0.0
+      },
+      "A11": {
+        "n": 16,
+        "recall": 0.0
+      },
+      "A12": {
+        "n": 15,
+        "recall": 0.0
+      },
+      "A13": {
+        "n": 15,
+        "recall": 0.0
+      },
+      "A14": {
+        "n": 15,
+        "recall": 0.0
+      },
+      "A15": {
+        "n": 15,
+        "recall": 0.0
+      },
+      "A16": {
+        "n": 15,
+        "recall": 0.0
+      },
+      "A17": {
+        "n": 15,
+        "recall": 0.0
+      },
+      "A18": {
+        "n": 15,
+        "recall": 0.0
+      },
+      "A19": {
+        "n": 15,
+        "recall": 0.0
+      }
+    }
+  },
+  "logistic_regression": {
+    "n": 400,
+    "accuracy": 0.845,
+    "balanced_accuracy": 0.845,
+    "synthetic_precision": 0.8791208791208791,
+    "synthetic_recall": 0.8,
+    "synthetic_f1": 0.837696335078534,
+    "macro_f1": 0.8446854881134297,
+    "roc_auc": 0.8908499999999999,
+    "eer": 0.18500000000000005,
+    "genuine_false_alarm_rate": 0.11,
+    "synthetic_miss_rate": 0.2,
+    "confusion_matrix": [
+      [
+        178,
+        22
+      ],
+      [
+        40,
+        160
+      ]
+    ],
+    "confusion_matrix_order": [
+      "bonafide",
+      "spoof"
+    ],
+    "classifier_prediction_and_score_ms_per_clip": 0.0016932300059124827,
+    "selected_on_development": false,
+    "per_attack_synthetic_recall": {
+      "A07": {
+        "n": 16,
+        "recall": 0.6875
+      },
+      "A08": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A09": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A10": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A11": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A12": {
+        "n": 15,
+        "recall": 0.9333333333333333
+      },
+      "A13": {
+        "n": 15,
+        "recall": 1.0
+      },
+      "A14": {
+        "n": 15,
+        "recall": 1.0
+      },
+      "A15": {
+        "n": 15,
+        "recall": 1.0
+      },
+      "A16": {
+        "n": 15,
+        "recall": 0.7333333333333333
+      },
+      "A17": {
+        "n": 15,
+        "recall": 0.26666666666666666
+      },
+      "A18": {
+        "n": 15,
+        "recall": 0.4666666666666667
+      },
+      "A19": {
+        "n": 15,
+        "recall": 0.26666666666666666
+      }
+    }
+  },
+  "svm_rbf": {
+    "n": 400,
+    "accuracy": 0.87,
+    "balanced_accuracy": 0.87,
+    "synthetic_precision": 0.8894736842105263,
+    "synthetic_recall": 0.845,
+    "synthetic_f1": 0.8666666666666667,
+    "macro_f1": 0.8699186991869918,
+    "roc_auc": 0.9303,
+    "eer": 0.145,
+    "genuine_false_alarm_rate": 0.105,
+    "synthetic_miss_rate": 0.155,
+    "confusion_matrix": [
+      [
+        179,
+        21
+      ],
+      [
+        31,
+        169
+      ]
+    ],
+    "confusion_matrix_order": [
+      "bonafide",
+      "spoof"
+    ],
+    "classifier_prediction_and_score_ms_per_clip": 0.05404802010161802,
+    "selected_on_development": true,
+    "per_attack_synthetic_recall": {
+      "A07": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A08": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A09": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A10": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A11": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A12": {
+        "n": 15,
+        "recall": 1.0
+      },
+      "A13": {
+        "n": 15,
+        "recall": 1.0
+      },
+      "A14": {
+        "n": 15,
+        "recall": 1.0
+      },
+      "A15": {
+        "n": 15,
+        "recall": 1.0
+      },
+      "A16": {
+        "n": 15,
+        "recall": 0.8666666666666667
+      },
+      "A17": {
+        "n": 15,
+        "recall": 0.3333333333333333
+      },
+      "A18": {
+        "n": 15,
+        "recall": 0.4666666666666667
+      },
+      "A19": {
+        "n": 15,
+        "recall": 0.26666666666666666
+      }
+    }
+  },
+  "random_forest": {
+    "n": 400,
+    "accuracy": 0.8325,
+    "balanced_accuracy": 0.8325,
+    "synthetic_precision": 0.8633879781420765,
+    "synthetic_recall": 0.79,
+    "synthetic_f1": 0.825065274151436,
+    "macro_f1": 0.8321969056608499,
+    "roc_auc": 0.8963625,
+    "eer": 0.18500000000000005,
+    "genuine_false_alarm_rate": 0.125,
+    "synthetic_miss_rate": 0.21,
+    "confusion_matrix": [
+      [
+        175,
+        25
+      ],
+      [
+        42,
+        158
+      ]
+    ],
+    "confusion_matrix_order": [
+      "bonafide",
+      "spoof"
+    ],
+    "classifier_prediction_and_score_ms_per_clip": 0.036546457558870316,
+    "selected_on_development": false,
+    "per_attack_synthetic_recall": {
+      "A07": {
+        "n": 16,
+        "recall": 0.875
+      },
+      "A08": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A09": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A10": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A11": {
+        "n": 16,
+        "recall": 1.0
+      },
+      "A12": {
+        "n": 15,
+        "recall": 0.8
+      },
+      "A13": {
+        "n": 15,
+        "recall": 1.0
+      },
+      "A14": {
+        "n": 15,
+        "recall": 1.0
+      },
+      "A15": {
+        "n": 15,
+        "recall": 1.0
+      },
+      "A16": {
+        "n": 15,
+        "recall": 0.8
+      },
+      "A17": {
+        "n": 15,
+        "recall": 0.26666666666666666
+      },
+      "A18": {
+        "n": 15,
+        "recall": 0.2
+      },
+      "A19": {
+        "n": 15,
+        "recall": 0.26666666666666666
+      }
+    }
+  }
+}

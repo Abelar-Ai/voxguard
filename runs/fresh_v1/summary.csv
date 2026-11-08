@@ -1,0 +1,7 @@
+model,condition,n,accuracy,roc_auc,eer
+original_mfcc_svm,clean,1000,0.864,0.9258399999999999,0.14
+original_mfcc_svm,noise_20_db,1000,0.5,0.493776,0.516
+original_mfcc_svm,noise_10_db,1000,0.5,0.58532,0.43400000000000005
+augmented_acoustic,clean,1000,0.894,0.9552080000000001,0.108
+augmented_acoustic,noise_20_db,1000,0.838,0.9137919999999999,0.16000000000000003
+augmented_acoustic,noise_10_db,1000,0.767,0.8372919999999999,0.236

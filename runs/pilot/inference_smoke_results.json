@@ -1,0 +1,22 @@
+[
+  {
+    "model": "svm_rbf",
+    "prediction": "genuine",
+    "synthetic_score": -0.3546359983536649,
+    "score_is_calibrated_confidence": false,
+    "elapsed_ms": 443.55237507261336,
+    "scope": "Research pilot; a prediction is not proof of authenticity",
+    "utterance_id": "LA_E_1077784",
+    "actual_label": "genuine"
+  },
+  {
+    "model": "svm_rbf",
+    "prediction": "genuine",
+    "synthetic_score": -0.4996329051834112,
+    "score_is_calibrated_confidence": false,
+    "elapsed_ms": 245.04237505607307,
+    "scope": "Research pilot; a prediction is not proof of authenticity",
+    "utterance_id": "LA_E_1075160",
+    "actual_label": "synthetic"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "notebook": {
+    "total_cells": 18,
+    "code_cells_syntax_checked": 9,
+    "full_colab_gpu_execution": "not run locally"
+  },
+  "cnn_smoke": {
+    "train_recordings": 26,
+    "dev_recordings": 26,
+    "epochs": [
+      1,
+      2
+    ],
+    "resume_checkpoint": "passed",
+    "saved_checkpoint_inference": "passed",
+    "performance_claim": "none; functional smoke test only"
+  },
+  "improved_cli_matches_fresh_batch_predictions": [
+    {
+      "model": "svm_C1.0",
+      "prediction": "synthetic",
+      "synthetic_score": 0.41533913774223824,
+      "score_is_calibrated_confidence": false,
+      "elapsed_ms": 450.17604203894734,
+      "scope": "Research pilot; a prediction is not proof of authenticity",
+      "utterance_id": "LA_E_1018975",
+      "actual_label": 0
+    },
+    {
+      "model": "svm_C1.0",
+      "prediction": "synthetic",
+      "synthetic_score": 0.8922208251791731,
+      "score_is_calibrated_confidence": false,
+      "elapsed_ms": 249.8714589746669,
+      "scope": "Research pilot; a prediction is not proof of authenticity",
+      "utterance_id": "LA_E_1039058",
+      "actual_label": 1
+    }
+  ],
+  "fresh_evaluation_summaries_match_saved_predictions": true,
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "librosa": "1.0.0",
+    "torch": "2.15.0"
+  }
+}

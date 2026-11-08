@@ -1,0 +1,492 @@
+{
+  "original_mfcc_svm": {
+    "clean": {
+      "n": 1000,
+      "accuracy": 0.864,
+      "balanced_accuracy": 0.864,
+      "synthetic_precision": 0.8839662447257384,
+      "synthetic_recall": 0.838,
+      "synthetic_f1": 0.8603696098562629,
+      "macro_f1": 0.8639080018092231,
+      "roc_auc": 0.9258399999999999,
+      "eer": 0.14,
+      "genuine_false_alarm_rate": 0.11,
+      "synthetic_miss_rate": 0.162,
+      "confusion_matrix": [
+        [
+          445,
+          55
+        ],
+        [
+          81,
+          419
+        ]
+      ],
+      "confusion_matrix_order": [
+        "bonafide",
+        "spoof"
+      ],
+      "per_attack_synthetic_recall": {
+        "A07": {
+          "n": 39,
+          "recall": 0.9743589743589743
+        },
+        "A08": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A09": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A10": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A11": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A12": {
+          "n": 39,
+          "recall": 0.9743589743589743
+        },
+        "A13": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A14": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A15": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A16": {
+          "n": 38,
+          "recall": 0.868421052631579
+        },
+        "A17": {
+          "n": 38,
+          "recall": 0.2631578947368421
+        },
+        "A18": {
+          "n": 38,
+          "recall": 0.42105263157894735
+        },
+        "A19": {
+          "n": 38,
+          "recall": 0.3684210526315789
+        }
+      }
+    },
+    "noise_20_db": {
+      "n": 1000,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "synthetic_precision": 0.5,
+      "synthetic_recall": 1.0,
+      "synthetic_f1": 0.6666666666666666,
+      "macro_f1": 0.3333333333333333,
+      "roc_auc": 0.493776,
+      "eer": 0.516,
+      "genuine_false_alarm_rate": 1.0,
+      "synthetic_miss_rate": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          500
+        ],
+        [
+          0,
+          500
+        ]
+      ],
+      "confusion_matrix_order": [
+        "bonafide",
+        "spoof"
+      ],
+      "per_attack_synthetic_recall": {
+        "A07": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A08": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A09": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A10": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A11": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A12": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A13": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A14": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A15": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A16": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A17": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A18": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A19": {
+          "n": 38,
+          "recall": 1.0
+        }
+      }
+    },
+    "noise_10_db": {
+      "n": 1000,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "synthetic_precision": 0.5,
+      "synthetic_recall": 1.0,
+      "synthetic_f1": 0.6666666666666666,
+      "macro_f1": 0.3333333333333333,
+      "roc_auc": 0.58532,
+      "eer": 0.43400000000000005,
+      "genuine_false_alarm_rate": 1.0,
+      "synthetic_miss_rate": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          500
+        ],
+        [
+          0,
+          500
+        ]
+      ],
+      "confusion_matrix_order": [
+        "bonafide",
+        "spoof"
+      ],
+      "per_attack_synthetic_recall": {
+        "A07": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A08": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A09": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A10": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A11": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A12": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A13": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A14": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A15": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A16": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A17": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A18": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A19": {
+          "n": 38,
+          "recall": 1.0
+        }
+      }
+    }
+  },
+  "augmented_acoustic": {
+    "clean": {
+      "n": 1000,
+      "accuracy": 0.894,
+      "balanced_accuracy": 0.8939999999999999,
+      "synthetic_precision": 0.9320175438596491,
+      "synthetic_recall": 0.85,
+      "synthetic_f1": 0.8891213389121339,
+      "macro_f1": 0.8937943859311628,
+      "roc_auc": 0.9552080000000001,
+      "eer": 0.108,
+      "genuine_false_alarm_rate": 0.062,
+      "synthetic_miss_rate": 0.15,
+      "confusion_matrix": [
+        [
+          469,
+          31
+        ],
+        [
+          75,
+          425
+        ]
+      ],
+      "confusion_matrix_order": [
+        "bonafide",
+        "spoof"
+      ],
+      "per_attack_synthetic_recall": {
+        "A07": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A08": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A09": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A10": {
+          "n": 39,
+          "recall": 0.8974358974358975
+        },
+        "A11": {
+          "n": 39,
+          "recall": 0.9743589743589743
+        },
+        "A12": {
+          "n": 39,
+          "recall": 0.7948717948717948
+        },
+        "A13": {
+          "n": 38,
+          "recall": 0.9736842105263158
+        },
+        "A14": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A15": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A16": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A17": {
+          "n": 38,
+          "recall": 0.13157894736842105
+        },
+        "A18": {
+          "n": 38,
+          "recall": 0.2631578947368421
+        },
+        "A19": {
+          "n": 38,
+          "recall": 1.0
+        }
+      }
+    },
+    "noise_20_db": {
+      "n": 1000,
+      "accuracy": 0.838,
+      "balanced_accuracy": 0.838,
+      "synthetic_precision": 0.8421052631578947,
+      "synthetic_recall": 0.832,
+      "synthetic_f1": 0.8370221327967807,
+      "macro_f1": 0.8379941677900404,
+      "roc_auc": 0.9137919999999999,
+      "eer": 0.16000000000000003,
+      "genuine_false_alarm_rate": 0.156,
+      "synthetic_miss_rate": 0.168,
+      "confusion_matrix": [
+        [
+          422,
+          78
+        ],
+        [
+          84,
+          416
+        ]
+      ],
+      "confusion_matrix_order": [
+        "bonafide",
+        "spoof"
+      ],
+      "per_attack_synthetic_recall": {
+        "A07": {
+          "n": 39,
+          "recall": 0.9487179487179487
+        },
+        "A08": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A09": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A10": {
+          "n": 39,
+          "recall": 0.9743589743589743
+        },
+        "A11": {
+          "n": 39,
+          "recall": 0.9487179487179487
+        },
+        "A12": {
+          "n": 39,
+          "recall": 0.7948717948717948
+        },
+        "A13": {
+          "n": 38,
+          "recall": 1.0
+        },
+        "A14": {
+          "n": 38,
+          "recall": 0.9210526315789473
+        },
+        "A15": {
+          "n": 38,
+          "recall": 0.9736842105263158
+        },
+        "A16": {
+          "n": 38,
+          "recall": 0.868421052631579
+        },
+        "A17": {
+          "n": 38,
+          "recall": 0.5789473684210527
+        },
+        "A18": {
+          "n": 38,
+          "recall": 0.3684210526315789
+        },
+        "A19": {
+          "n": 38,
+          "recall": 0.42105263157894735
+        }
+      }
+    },
+    "noise_10_db": {
+      "n": 1000,
+      "accuracy": 0.767,
+      "balanced_accuracy": 0.767,
+      "synthetic_precision": 0.8201438848920863,
+      "synthetic_recall": 0.684,
+      "synthetic_f1": 0.7459105779716467,
+      "macro_f1": 0.7653837285056756,
+      "roc_auc": 0.8372919999999999,
+      "eer": 0.236,
+      "genuine_false_alarm_rate": 0.15,
+      "synthetic_miss_rate": 0.316,
+      "confusion_matrix": [
+        [
+          425,
+          75
+        ],
+        [
+          158,
+          342
+        ]
+      ],
+      "confusion_matrix_order": [
+        "bonafide",
+        "spoof"
+      ],
+      "per_attack_synthetic_recall": {
+        "A07": {
+          "n": 39,
+          "recall": 0.7948717948717948
+        },
+        "A08": {
+          "n": 39,
+          "recall": 0.8974358974358975
+        },
+        "A09": {
+          "n": 39,
+          "recall": 1.0
+        },
+        "A10": {
+          "n": 39,
+          "recall": 0.8461538461538461
+        },
+        "A11": {
+          "n": 39,
+          "recall": 0.6666666666666666
+        },
+        "A12": {
+          "n": 39,
+          "recall": 0.6923076923076923
+        },
+        "A13": {
+          "n": 38,
+          "recall": 0.9473684210526315
+        },
+        "A14": {
+          "n": 38,
+          "recall": 0.8157894736842105
+        },
+        "A15": {
+          "n": 38,
+          "recall": 0.7631578947368421
+        },
+        "A16": {
+          "n": 38,
+          "recall": 0.6052631578947368
+        },
+        "A17": {
+          "n": 38,
+          "recall": 0.2631578947368421
+        },
+        "A18": {
+          "n": 38,
+          "recall": 0.3684210526315789
+        },
+        "A19": {
+          "n": 38,
+          "recall": 0.21052631578947367
+        }
+      }
+    }
+  }
+}

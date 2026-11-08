@@ -1,0 +1,13 @@
+{
+  "source": "https://doi.org/10.7488/ds/2555",
+  "archive_url": "https://datashare.ed.ac.uk/server/api/core/bitstreams/a9f87c35-f055-4015-80e2-2fdff0d46269/content",
+  "seed": 475,
+  "selection": "equal class counts and approximately equal counts per spoof attack within each official partition",
+  "counts": {
+    "train": 1200,
+    "dev": 400,
+    "eval": 400
+  },
+  "license": "Open Data Commons Attribution License (ODC-By)",
+  "citation": "Todisco et al., ASVspoof 2019: Future Horizons in Spoofed and Fake Audio Detection, Interspeech 2019, doi:10.21437/Interspeech.2019-2249"
+}

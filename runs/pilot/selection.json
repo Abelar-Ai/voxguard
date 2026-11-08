@@ -1,0 +1,36 @@
+{
+  "selection_metric": "development balanced accuracy",
+  "selected_model": "svm_rbf",
+  "selected_hyperparameters": {
+    "majority": "most_frequent",
+    "logistic_regression": "C=0.1",
+    "svm_rbf": "C=1.0,gamma=scale",
+    "random_forest": "trees=200,max_depth=None"
+  },
+  "seed": 475,
+  "features": {
+    "sample_rate": 16000,
+    "max_seconds": 4.0,
+    "min_seconds": 0.1,
+    "n_mfcc": 20,
+    "n_mels": 64,
+    "n_fft": 512,
+    "win_length": 400,
+    "hop_length": 160
+  },
+  "feature_dimensions": 80,
+  "train_count": 1200,
+  "dev_count": 400,
+  "manifest_sha256": "3733d4cab681d015044e0184aa374d51266872c853051e44c68b706209451253",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "librosa": "1.0.0",
+    "soundfile": "0.14.0",
+    "joblib": "1.6.0"
+  },
+  "threshold_policy": "default classifier thresholds; no evaluation-set threshold tuning",
+  "evaluation_policy": "all family choices frozen on development data before evaluation"
+}
