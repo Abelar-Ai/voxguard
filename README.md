@@ -2,7 +2,7 @@
 
 VoxGuard is a research prototype for distinguishing genuine speech from synthetic or voice-converted speech. It includes an audio feature pipeline, three classical classifiers, noise-augmented MFCC/LFCC models, a PyTorch spectrogram CNN, reproducible evaluations, and single-file acoustic-model inference.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Abelar-Ai/voxguard/blob/main/notebooks/VoxGuard_Colab.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/asarekwaku/voxguard/blob/main/notebooks/VoxGuard_Colab.ipynb)
 
 ## Latest improvement
 
